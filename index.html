@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>La Casa de Pastel — Pedidos</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand__logoWrap">
+        <img src="assets/img/logo.png" alt="Logo La Casa de Pastel" class="brand__logo" onerror="this.style.display='none';" />
+      </div>
+
+      <div class="brand__text">
+        <div class="brand__name">LA CASA DE PASTEL</div>
+        <div class="brand__tagline">você ficará refém desse sabor!!!</div>
+      </div>
+    </div>
+
+    <button class="iconBtn" id="btnOpenCart" type="button" title="Ver carrinho">
+      🛒 <span class="iconBtn__badge" id="cartCount">0</span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__content">
+      <div class="hero__headline">Faça já o seu pedido</div>
+      <div class="hero__sub">
+        Entrega/Retirada • Pagamento: Pix/Dinheiro/Cartão na entrega
+      </div>
+
+      <div class="hero__chips" id="categoryChips"></div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="layout">
+      <!-- Menu -->
+      <section class="card">
+        <h2>Cardápio</h2>
+        <p class="muted">Toque em + para adicionar e − para remover.</p>
+
+        <div class="grid" id="menuGrid"></div>
+      </section>
+
+      <!-- Cart -->
+      <aside class="card" id="cart">
+        <div class="card__head">
+          <h2>Seu pedido</h2>
+          <p class="muted">Confira itens, endereço e envie pelo WhatsApp.</p>
+        </div>
+
+        <div id="cartLines" class="cartLines"></div>
+
+        <div class="totalRow">
+          <span>Total</span>
+          <strong id="cartTotal">R$ 0,00</strong>
+        </div>
+
+        <div class="form">
+          <label>Nome</label>
+          <input id="nome" placeholder="Seu nome" />
+
+          <div class="row2">
+            <div>
+              <label>Entrega ou Retirada</label>
+              <select id="tipo">
+                <option value="Entrega">Entrega</option>
+                <option value="Retirada">Retirada</option>
+              </select>
+            </div>
+            <div>
+              <label>Forma de pagamento</label>
+              <select id="pagamento">
+                <option value="Pix">Pix</option>
+                <option value="Dinheiro">Dinheiro</option>
+                <option value="Cartão">Cartão</option>
+              </select>
+            </div>
+          </div>
+
+          <label>Endereço (se entrega)</label>
+          <input id="endereco" placeholder="Rua, número, bairro (se Entrega)" />
+
+          <label>Observações</label>
+          <textarea id="obs" placeholder="Ex: sem cebola, bem passado, troco para 100..."></textarea>
+
+          <button class="btnPrimary" id="btnWhats" type="button">Enviar pedido no WhatsApp</button>
+          <button class="btnGhost" id="btnClear" type="button">Limpar carrinho</button>
+
+          <p class="warn" id="warn"></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Bottom nav -->
+  <nav class="bottomNav">
+    <button class="navItem active" type="button" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+      🏠<span>Início</span>
+    </button>
+
+    <button class="navItem" type="button" onclick="document.getElementById('menuGrid').scrollIntoView({behavior:'smooth'})">
+      📋<span>Cardápio</span>
+    </button>
+
+    <button class="navItem" type="button" onclick="document.getElementById('cart').scrollIntoView({behavior:'smooth'})">
+      🛒<span>Carrinho</span>
+    </button>
+
+    <button class="navItem" type="button" onclick="alert('Em breve: promoções e novidades!')">
+      ⭐<span>Novidades</span>
+    </button>
+  </nav>
+
+  <!-- Cart bar -->
+  <div class="cartBar" id="cartBar">
+    <span id="cartBarText">Ver carrinho</span>
+    <strong id="cartBarTotal">R$ 0,00</strong>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
