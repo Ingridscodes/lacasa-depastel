@@ -91,7 +91,7 @@ const MENU = [
   }
 ];
 
-const WHATSAPP_NUMERO = "5566981446127";
+const WHATSAPP_NUMERO = "5591980614781";
 const cart = {};
 
 const categoryChips = document.getElementById("categoryChips");
@@ -354,4 +354,5 @@ renderAll();
 
 window.addItem = addItem;
 window.removeItem = removeItem;
+
 window.setCategory = setCategory;
