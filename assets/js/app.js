@@ -307,28 +307,29 @@ function montarMensagemWhatsApp() {
     return null;
   }
 
-  let mensagem = `*Novo pedido - La Casa de Pastel*%0A%0A`;
-  mensagem += `*Nome:* ${encodeURIComponent(nome)}%0A`;
-  mensagem += `*Tipo:* ${encodeURIComponent(tipo)}%0A`;
-  mensagem += `*Pagamento:* ${encodeURIComponent(pagamento)}%0A`;
+let mensagem = `🥟 *LA CASA DE PASTEL*%0A🧾 Novo pedido recebido:%0A%0A`;
 
-  if (tipo === "Entrega") {
-    mensagem += `*Endereço:* ${encodeURIComponent(endereco)}%0A`;
-  }
+mensagem += `👤 *Nome:* ${encodeURIComponent(nome)}%0A`;
+mensagem += `📦 *Tipo:* ${encodeURIComponent(tipo)}%0A`;
+mensagem += `💳 *Pagamento:* ${encodeURIComponent(pagamento)}%0A`;
 
-  mensagem += `%0A*Itens do pedido:*%0A`;
+if (tipo === "Entrega") {
+  mensagem += `📍 *Endereço:* ${encodeURIComponent(endereco)}%0A`;
+}
 
-  entries.forEach(item => {
-    mensagem += `- ${encodeURIComponent(item.qty + "x " + item.nome)} — ${encodeURIComponent(formatBRL(item.subtotal))}%0A`;
-  });
+mensagem += `%0A🍴 *Itens do pedido:*%0A`;
 
-  mensagem += `%0A*Total:* ${encodeURIComponent(formatBRL(getCartTotalValue()))}%0A`;
+entries.forEach(item => {
+  mensagem += `• ${encodeURIComponent(item.qty + "x " + item.nome)} — ${encodeURIComponent(formatBRL(item.subtotal))}%0A`;
+});
 
-  if (obs) {
-    mensagem += `%0A*Observações:* ${encodeURIComponent(obs)}%0A`;
-  }
+mensagem += `%0A💰 *Total:* ${encodeURIComponent(formatBRL(getCartTotalValue()))}%0A`;
 
-  return mensagem;
+if (obs) {
+  mensagem += `%0A📝 *Observações:* ${encodeURIComponent(obs)}%0A`;
+}
+
+return mensagem;
 }
 
 function enviarWhatsApp() {
@@ -356,3 +357,4 @@ window.addItem = addItem;
 window.removeItem = removeItem;
 
 window.setCategory = setCategory;
+
