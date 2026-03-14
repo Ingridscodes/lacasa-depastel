@@ -88,7 +88,45 @@ const MENU = [
         imagem: "assets/img/pasteis/pastelao-30cm.jpg"
       }
     ]
-  }
+  },
+  {
+  id: "bebidas",
+  nome: "Bebidas",
+  itens: [
+    {
+      id: "suco-goiaba",
+      nome: "Suco de Goiaba 350ml",
+      desc: "Suco natural de goiaba.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/bebidas/suco-goiaba.jpg"
+    },
+    {
+      id: "suco-acerola",
+      nome: "Suco de Acerola 350ml",
+      desc: "Suco natural de acerola.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/bebidas/suco-acerola.jpg"
+    },
+    {
+      id: "coca-cola",
+      nome: "Coca-Cola",
+      desc: "Refrigerante Coca-Cola gelado.",
+      preco: 6.00,
+      esgotado: false,
+      imagem: "assets/img/bebidas/coca-cola.jpg"
+    },
+    {
+      id: "guarana-tuchaua",
+      nome: "Guaraná Tuchaua",
+      desc: "Refrigerante Guaraná Tuchaua gelado.",
+      preco: 6.00,
+      esgotado: false,
+      imagem: "assets/img/bebidas/tuchaua.jpg"
+    }
+  ]
+}
 ];
 
 const WHATSAPP_NUMERO = "5591980614781";
