@@ -99,7 +99,7 @@ const MENU = [
       desc: "Suco natural de goiaba.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/bebidas/suco-goiaba.jpg"
+      imagem: "assets/img/pasteis/suco-goiaba.jpg"
     },
     {
       id: "suco-acerola",
@@ -107,7 +107,7 @@ const MENU = [
       desc: "Suco natural de acerola.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/bebidas/suco-acerola.jpg"
+      imagem: "assets/img/pasteis/suco-acerola.jpg"
     },
     {
       id: "coca-cola",
@@ -115,7 +115,7 @@ const MENU = [
       desc: "Refrigerante Coca-Cola gelado.",
       preco: 6.00,
       esgotado: false,
-      imagem: "assets/img/bebidas/coca-cola.jpg"
+      imagem: "assets/img/pasteis/coca-cola.jpg"
     },
     {
       id: "guarana-tuchaua",
@@ -123,7 +123,7 @@ const MENU = [
       desc: "Refrigerante Guaraná Tuchaua gelado.",
       preco: 6.00,
       esgotado: false,
-      imagem: "assets/img/bebidas/tuchaua.jpg"
+      imagem: "assets/img/pasteis/tuchaua.jpg"
     }
   ]
 }
