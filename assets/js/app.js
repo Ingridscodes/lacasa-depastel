@@ -67,17 +67,34 @@ const MENU = [
       },
       {
         id: "tres-queijos",
-        nome: "Pastel 3 Queijos",
+        nome: "3 Queijos",
         desc: "Queijo mussarela, queijo catupiry e queijo cheddar.",
         preco: 12.99,
         esgotado: false,
         imagem: "assets/img/pasteis/tres-queijos.jpg"
-      }
-    ]
+      },
+      {
+        id: "pastel-hotdog",
+  nome: "Hot Dog",
+  desc: "Salsicha, queijo, molho vermelho delicioso, batata palha e milho.",
+  preco: 12,99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/pastel-hotdog.jpg"
+     },
+     {
+       id: "estrogonoff-frango",
+  nome: "Estrogonoff de Frango",
+  desc: "Estrogonoff de frango saboroso com queijo e batata palha.",
+  preco: 12,99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/estrogonoff-frango.jpg"
+  }
+      
+  ]
   },
   {
-    id: "pastelao",
-    nome: "Pastelão 30cm",
+    id: "Exclusivos",
+    nome: "Pastéis Exclusivos",
     itens: [
       {
         id: "pastelao-30cm",
@@ -86,7 +103,32 @@ const MENU = [
         preco: 24.99,
         esgotado: false,
         imagem: "assets/img/pasteis/pastelao-30cm.jpg"
-      }
+      },
+      {
+        id: "camarao-3-queijos",
+  nome: "Camarão 3 Queijos",
+  desc: "Camarão com mussarela, catupiry e cheddar.",
+  preco: 12,99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/camarao-3-queijos.jpg" 
+    },
+    {
+       id: "camarao-cremecheese",
+  nome: "Camarão ao Cream Cheese",
+  desc: "Camarão com delicioso molho de cream cheese.",
+  preco: 12,99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/camarao-cremecheese.jpg"
+    },
+    {
+      id: "pastel-americano",
+  nome: "Pastel Americano",
+  desc: "Purê de batata, frango, molho de camarão e queijo mussarela.",
+  preco: 12,99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/pastel-americano.jpg"
+    }
+      
     ]
   },
   {
