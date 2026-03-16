@@ -108,7 +108,7 @@ const MENU = [
         id: "camarao-3-queijos",
   nome: "Camarão 3 Queijos",
   desc: "Camarão com mussarela, catupiry e cheddar.",
-  preco: 12.99,
+  preco: 21.99,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-3-queijos.jpg" 
     },
@@ -116,7 +116,7 @@ const MENU = [
        id: "camarao-cremecheese",
   nome: "Camarão ao Cream Cheese",
   desc: "Camarão com delicioso molho de cream cheese.",
-  preco: 12.99,
+  preco: 21.99,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-cremecheese.jpg"
     },
@@ -124,7 +124,7 @@ const MENU = [
       id: "pastel-americano",
   nome: "Pastel Americano",
   desc: "Purê de batata, frango, molho de camarão e queijo mussarela.",
-  preco: 12.99,
+  preco: 21.99,
   esgotado: false,
   imagem: "assets/img/pasteis/pastel-americano.jpg"
     }
