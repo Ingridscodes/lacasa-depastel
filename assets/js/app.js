@@ -122,7 +122,7 @@ const MENU = [
     },
     {
       id: "pastel-americano",
-  nome: "Pastel Americano",
+  nome: "Americano",
   desc: "Purê de batata, frango, molho de camarão e queijo mussarela.",
   preco: 21.99,
   esgotado: false,
