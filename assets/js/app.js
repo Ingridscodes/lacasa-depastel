@@ -77,7 +77,7 @@ const MENU = [
         id: "pastel-hotdog",
   nome: "Hot Dog",
   desc: "Salsicha, queijo, molho vermelho delicioso, batata palha e milho.",
-  preco: 12,99,
+  preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/pastel-hotdog.jpg"
      },
@@ -85,7 +85,7 @@ const MENU = [
        id: "estrogonoff-frango",
   nome: "Estrogonoff de Frango",
   desc: "Estrogonoff de frango saboroso com queijo e batata palha.",
-  preco: 12,99,
+  preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/estrogonoff-frango.jpg"
   }
@@ -108,7 +108,7 @@ const MENU = [
         id: "camarao-3-queijos",
   nome: "Camarão 3 Queijos",
   desc: "Camarão com mussarela, catupiry e cheddar.",
-  preco: 12,99,
+  preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-3-queijos.jpg" 
     },
@@ -116,7 +116,7 @@ const MENU = [
        id: "camarao-cremecheese",
   nome: "Camarão ao Cream Cheese",
   desc: "Camarão com delicioso molho de cream cheese.",
-  preco: 12,99,
+  preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-cremecheese.jpg"
     },
@@ -124,7 +124,7 @@ const MENU = [
       id: "pastel-americano",
   nome: "Pastel Americano",
   desc: "Purê de batata, frango, molho de camarão e queijo mussarela.",
-  preco: 12,99,
+  preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/pastel-americano.jpg"
     }
