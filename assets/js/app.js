@@ -128,14 +128,7 @@ const MENU = [
   preco: 12.99,
   esgotado: false,
   imagem: "assets/img/pasteis/pastel-hotdog.jpg"
-     },
-     {
-       id: "estrogonoff-frango",
-  nome: "Estrogonoff de Frango",
-  desc: "Estrogonoff de frango saboroso com queijo e batata palha.",
-  preco: 12.99,
-  esgotado: false,
-  imagem: "assets/img/pasteis/estrogonoff-frango.jpg"
+ 
   }
       
   ]
