@@ -66,6 +66,54 @@ const MENU = [
         imagem: "assets/img/pasteis/moda-da-casa.jpg"
       },
       {
+         id: "bacon",
+  nome: "Bacon",
+  desc: "Bacon, ovo, milho e queijo.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/bacon.jpg"
+},
+{
+  id: "bacon-cremoso",
+  nome: "Bacon Cremoso",
+  desc: "Bacon, queijo mussarela e cheddar, milho e tomate.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/bacon-cremoso.jpg"
+},
+{
+  id: "bauru",
+  nome: "Baurú",
+  desc: "Carne, queijo, presunto e ovo.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/bauru.jpg"
+},
+{
+  id: "franbacon",
+  nome: "FranBacon",
+  desc: "Frango, bacon e queijo.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/franbacon.jpg"
+},
+{
+  id: "vegetariano",
+  nome: "Vegetariano",
+  desc: "Queijo, catupiry, milho, tomate e orégano.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/vegetariano.jpg"
+},
+{
+  id: "especial-carne",
+  nome: "Especial de Carne",
+  desc: "Carne, queijo, tomate e batata palha.",
+  preco: 12.99,
+  esgotado: false,
+  imagem: "assets/img/pasteis/especial-carne.jpg"
+      },
+      {
         id: "tres-queijos",
         nome: "3 Queijos",
         desc: "Queijo mussarela, queijo catupiry e queijo cheddar.",
@@ -130,6 +178,108 @@ const MENU = [
     }
       
     ]
+  },
+  {
+  id: "doces",
+  nome: "Pastéis Doces",
+  itens: [
+    {
+      id: "chocolate",
+      nome: "Chocolate",
+      desc: "Pastel recheado com chocolate branco e preto.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/chocolate.jpg"
+    },
+    {
+      id: "sensacao",
+      nome: "Sensação",
+      desc: "Recheio de brigadeiro com morangos.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/sensacao.jpg"
+    },
+    {
+      id: "chocolate-banana",
+      nome: "Chocolate c/ Banana",
+      desc: "Recheado com chocolate e banana.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/chocolate-banana.jpg"
+    },
+    {
+      id: "confete",
+      nome: "Confete",
+      desc: "Chocolate preto com granulado.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/confete.jpg"
+    },
+    {
+      id: "dueto",
+      nome: "Dueto",
+      desc: "Creme de ninho com morango.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/dueto.jpg"
+    },
+    {
+      id: "especial-doce",
+      nome: "Especial Doce",
+      desc: "Creme de ninho, mix de castanhas e coco ralado.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/especial-doce.jpg"
+    },
+    {
+      id: "beijinho",
+      nome: "Beijinho",
+      desc: "Recheio cremoso de coco com leite condensado.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/beijinho.jpg"
+    },
+    {
+      id: "sensacao-morango",
+      nome: "Sensação de Morango",
+      desc: "Chocolate com recheio cremoso de morango.",
+      preco: 10.99,
+      esgotado: false,
+      imagem: "assets/img/pasteis/sensacao-morango.jpg"
+ }
+      
+  ]
+  },
+  {
+  id: "combos",
+  nome: "Combos",
+  itens: [
+    {
+      id: "combo-1",
+      nome: "Combo 1",
+      desc: "2 pastéis tradicionais + 1 pastel doce + 2 sucos.",
+      preco: 40.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo1.jpg"
+    },
+    {
+      id: "combo-2",
+      nome: "Combo 2",
+      desc: "1 pastelão + 2 sucos.",
+      preco: 30.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo2.jpg"
+    },
+    {
+      id: "combo-3",
+      nome: "Combo 3",
+      desc: "1 tradicional + 1 especial + 1 exclusivo + 3 sucos.",
+      preco: 55.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo3.jpg"
+ }
+      
+  ]
   },
   {
   id: "bebidas",
