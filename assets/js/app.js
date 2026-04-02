@@ -187,7 +187,7 @@ const MENU = [
       id: "chocolate",
       nome: "Chocolate",
       desc: "Pastel recheado com chocolate branco e preto.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/chocolate.jpg"
     },
@@ -195,7 +195,7 @@ const MENU = [
       id: "sensacao",
       nome: "Sensação",
       desc: "Recheio de brigadeiro com morangos.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/sensacao.jpg"
     },
@@ -203,7 +203,7 @@ const MENU = [
       id: "chocolate-banana",
       nome: "Chocolate c/ Banana",
       desc: "Recheado com chocolate e banana.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/chocolate-banana.jpg"
     },
@@ -211,7 +211,7 @@ const MENU = [
       id: "confete",
       nome: "Confete",
       desc: "Chocolate preto com granulado.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/confete.jpg"
     },
@@ -219,7 +219,7 @@ const MENU = [
       id: "dueto",
       nome: "Dueto",
       desc: "Creme de ninho com morango.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/dueto.jpg"
     },
@@ -227,7 +227,7 @@ const MENU = [
       id: "especial-doce",
       nome: "Especial Doce",
       desc: "Creme de ninho, mix de castanhas e coco ralado.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/especial-doce.jpg"
     },
@@ -235,7 +235,7 @@ const MENU = [
       id: "beijinho",
       nome: "Beijinho",
       desc: "Recheio cremoso de coco com leite condensado.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/beijinho.jpg"
     },
@@ -243,7 +243,7 @@ const MENU = [
       id: "sensacao-morango",
       nome: "Sensação de Morango",
       desc: "Chocolate com recheio cremoso de morango.",
-      preco: 10.99,
+      preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/sensacao-morango.jpg"
  }
