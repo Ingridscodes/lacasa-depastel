@@ -7,7 +7,7 @@ const MENU = [
         id: "calabresa-queijo",
         nome: "Calabresa c/ Queijo",
         desc: "Calabresa com queijo mussarela.",
-        preco: 9.99,
+        preco: 12.00,
         esgotado: false,
         imagem: "assets/img/pasteis/calabresa-queijo.jpg"
       },
@@ -15,7 +15,7 @@ const MENU = [
         id: "frango-queijo",
         nome: "Frango c/ Queijo",
         desc: "Frango temperado com queijo mussarela.",
-        preco: 9.99,
+        preco: 12.00,
         esgotado: false,
         imagem: "assets/img/pasteis/frango-queijo.jpg"
       },
@@ -31,7 +31,7 @@ const MENU = [
         id: "misto",
         nome: "Misto",
         desc: "Presunto e queijo mussarela.",
-        preco: 9.99,
+        preco: 12.00,
         esgotado: false,
         imagem: "assets/img/pasteis/misto.jpg"
       }
@@ -45,7 +45,7 @@ const MENU = [
         id: "frango-cremoso",
         nome: "Frango Cremoso",
         desc: "Tomate, milho, queijo catupiry e queijo mussarela.",
-        preco: 12.99,
+        preco: 15.00,
         esgotado: false,
         imagem: "assets/img/pasteis/frango-cremoso.jpg"
       },
@@ -53,7 +53,7 @@ const MENU = [
         id: "pizza",
         nome: "Pizza",
         desc: "Presunto, queijo, tomate e orégano.",
-        preco: 12.99,
+        preco: 15.00,
         esgotado: false,
         imagem: "assets/img/pasteis/pizza.jpg"
       },
@@ -61,7 +61,7 @@ const MENU = [
         id: "moda-da-casa",
         nome: "Moda da Casa",
         desc: "Carne, calabresa, tomate, milho, azeitona e queijo.",
-        preco: 12.99,
+        preco: 15.00,
         esgotado: false,
         imagem: "assets/img/pasteis/moda-da-casa.jpg"
       },
@@ -69,7 +69,7 @@ const MENU = [
          id: "bacon",
   nome: "Bacon",
   desc: "Bacon, ovo, milho e queijo.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bacon.jpg"
 },
@@ -77,7 +77,7 @@ const MENU = [
   id: "bacon-cremoso",
   nome: "Bacon Cremoso",
   desc: "Bacon, queijo mussarela e cheddar, milho e tomate.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bacon-cremoso.jpg"
 },
@@ -85,7 +85,7 @@ const MENU = [
   id: "bauru",
   nome: "Baurú",
   desc: "Carne, queijo, presunto e ovo.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bauru.jpg"
 },
@@ -93,7 +93,7 @@ const MENU = [
   id: "franbacon",
   nome: "FranBacon",
   desc: "Frango, bacon e queijo.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/franbacon.jpg"
 },
@@ -101,7 +101,7 @@ const MENU = [
   id: "vegetariano",
   nome: "Vegetariano",
   desc: "Queijo, catupiry, milho, tomate e orégano.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/vegetariano.jpg"
 },
@@ -109,7 +109,7 @@ const MENU = [
   id: "especial-carne",
   nome: "Especial de Carne",
   desc: "Carne, queijo, tomate e batata palha.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/especial-carne.jpg"
       },
@@ -117,7 +117,7 @@ const MENU = [
         id: "tres-queijos",
         nome: "3 Queijos",
         desc: "Queijo mussarela, queijo catupiry e queijo cheddar.",
-        preco: 12.99,
+        preco: 15.00,
         esgotado: false,
         imagem: "assets/img/pasteis/tres-queijos.jpg"
       },
@@ -125,7 +125,7 @@ const MENU = [
         id: "pastel-hotdog",
   nome: "Hot Dog",
   desc: "Salsicha, queijo, molho vermelho delicioso, batata palha e milho.",
-  preco: 12.99,
+  preco: 15.00,
   esgotado: false,
   imagem: "assets/img/pasteis/pastel-hotdog.jpg"
  
@@ -141,7 +141,7 @@ const MENU = [
         id: "pastelao-30cm",
         nome: "Pastelão de 30cm",
         desc: "Calabresa, frango, carne, presunto, queijo mussarela, queijo catupiry, queijo cheddar, tomate, milho, azeitona e orégano.",
-        preco: 24.99,
+        preco: 30.00,
         esgotado: false,
         imagem: "assets/img/pasteis/pastelao-30cm.jpg"
       },
@@ -149,7 +149,7 @@ const MENU = [
         id: "camarao-3-queijos",
   nome: "Camarão 3 Queijos",
   desc: "Camarão com mussarela, catupiry e cheddar.",
-  preco: 21.99,
+  preco: 22.00,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-3-queijos.jpg" 
     },
@@ -157,17 +157,9 @@ const MENU = [
        id: "camarao-cremecheese",
   nome: "Camarão ao Cream Cheese",
   desc: "Camarão com delicioso molho de cream cheese.",
-  preco: 21.99,
+  preco: 22.00,
   esgotado: false,
   imagem: "assets/img/pasteis/camarao-cremecheese.jpg"
-    },
-    {
-      id: "pastel-americano",
-  nome: "Americano",
-  desc: "Purê de batata, frango, molho de camarão e queijo mussarela.",
-  preco: 21.99,
-  esgotado: false,
-  imagem: "assets/img/pasteis/pastel-americano.jpg"
     }
       
     ]
@@ -251,7 +243,7 @@ const MENU = [
       id: "combo-1",
       nome: "Combo 1",
       desc: "2 pastéis tradicionais + 1 pastel doce + 2 sucos.",
-      preco: 40.00,
+      preco: 45.00,
       esgotado: false,
       imagem: "assets/img/pasteis/combo1.jpg"
     },
@@ -259,7 +251,7 @@ const MENU = [
       id: "combo-2",
       nome: "Combo 2",
       desc: "1 pastelão + 2 sucos.",
-      preco: 30.00,
+      preco: 35.00,
       esgotado: false,
       imagem: "assets/img/pasteis/combo2.jpg"
     },
@@ -267,7 +259,7 @@ const MENU = [
       id: "combo-3",
       nome: "Combo 3",
       desc: "1 tradicional + 1 especial + 1 exclusivo + 3 sucos.",
-      preco: 55.00,
+      preco: 60.00,
       esgotado: false,
       imagem: "assets/img/pasteis/combo3.jpg"
  }
