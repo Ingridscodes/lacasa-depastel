@@ -272,19 +272,11 @@ const MENU = [
   itens: [
     {
       id: "suco-goiaba",
-      nome: "Suco de Goiaba 350ml",
-      desc: "Suco natural de goiaba.",
+      nome: "Suco Natural 350ml",
+      desc: "Verificar sabores disponíveis do dia.",
       preco: 5.00,
       esgotado: false,
       imagem: "assets/img/pasteis/suco-goiaba.jpg"
-    },
-    {
-      id: "suco-acerola",
-      nome: "Suco de Acerola 350ml",
-      desc: "Suco natural de acerola.",
-      preco: 5.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/suco-acerola.jpg"
     },
     {
       id: "coca-cola",
