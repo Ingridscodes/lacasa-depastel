@@ -9,7 +9,8 @@ const MENU = [
         desc: "Calabresa com queijo mussarela.",
         preco: 12.00,
         esgotado: false,
-        imagem: "assets/img/pasteis/calabresa-queijo.jpg"
+        imagem: "assets/img/pasteis/calabresa-queijo.jpg",
+        borda: true
       },
       {
         id: "frango-queijo",
@@ -17,7 +18,8 @@ const MENU = [
         desc: "Frango temperado com queijo mussarela.",
         preco: 12.00,
         esgotado: false,
-        imagem: "assets/img/pasteis/frango-queijo.jpg"
+        imagem: "assets/img/pasteis/frango-queijo.jpg",
+        borda: true
       },
       {
         id: "carne-queijo",
@@ -25,7 +27,8 @@ const MENU = [
         desc: "Carne temperada com queijo mussarela.",
         preco: 12.00,
         esgotado: false,
-        imagem: "assets/img/pasteis/carne-queijo.jpg"
+        imagem: "assets/img/pasteis/carne-queijo.jpg",
+        borda: true
       },
       {
         id: "misto",
@@ -420,6 +423,29 @@ function renderMenu() {
           </div>
 
           <div class="product__desc">${item.desc || ""}</div>
+          ${item.borda ? `
+  <div style="margin-top:10px;">
+    <select style="
+      width:100%;
+      padding:8px;
+      border-radius:10px;
+      border:1px solid rgba(255,255,255,.1);
+      background:rgba(255,255,255,.05);
+      color:white;
+      font-size:13px;
+    ">
+      <option value="">Borda recheada (+R$5)</option>
+      <option>Catupiry</option>
+      <option>Queijo mussarela</option>
+      <option>Queijo cheddar</option>
+      <option>Cream cheese</option>
+      <option>Chocolate</option>
+      <option>Chocolate branco</option>
+      <option>Creme de Ninho</option>
+      <option>Beijinho</option>
+    </select>
+  </div>
+` : ""}
 
           <div class="product__row">
             <div class="product__price">${formatBRL(item.preco)}</div>
