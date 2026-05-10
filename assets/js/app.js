@@ -23,7 +23,7 @@ const MENU = [
         id: "carne-queijo",
         nome: "Carne c/ Queijo",
         desc: "Carne temperada com queijo mussarela.",
-        preco: 9.99,
+        preco: 12.00,
         esgotado: false,
         imagem: "assets/img/pasteis/carne-queijo.jpg"
       },
