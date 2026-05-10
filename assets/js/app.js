@@ -423,18 +423,30 @@ function renderMenu() {
           </div>
 
           <div class="product__desc">${item.desc || ""}</div>
-          ${item.borda ? `
+${item.borda ? `
   <div style="margin-top:10px;">
+    
+    <label style="
+      display:block;
+      margin-bottom:6px;
+      font-size:12px;
+      font-weight:700;
+      color:#666;
+    ">
+      Borda recheada (+R$5)
+    </label>
+
     <select style="
       width:100%;
-      padding:8px;
-      border-radius:10px;
-      border:1px solid rgba(255,255,255,.1);
-      background:rgba(255,255,255,.05);
-      color:white;
+      padding:10px;
+      border-radius:12px;
+      border:1px solid #f0caca;
+      background:#fff7f7;
+      color:#333;
       font-size:13px;
+      outline:none;
     ">
-      <option value="">Borda recheada (+R$5)</option>
+      <option value="">Escolha o sabor</option>
       <option>Catupiry</option>
       <option>Queijo mussarela</option>
       <option>Queijo cheddar</option>
@@ -444,6 +456,7 @@ function renderMenu() {
       <option>Creme de Ninho</option>
       <option>Beijinho</option>
     </select>
+
   </div>
 ` : ""}
 
