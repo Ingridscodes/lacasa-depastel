@@ -276,7 +276,7 @@ const MENU = [
       desc: "Adicional de borda recheada.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-catupiry.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-cheddar",
@@ -284,7 +284,7 @@ const MENU = [
       desc: "Adicional de borda recheada.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-cheddar.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-mussarela",
@@ -292,7 +292,7 @@ const MENU = [
       desc: "Adicional de borda recheada.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-mussarela.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-creamcheese",
@@ -300,7 +300,7 @@ const MENU = [
       desc: "Adicional de borda recheada.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-creamcheese.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-chocolate",
@@ -308,7 +308,7 @@ const MENU = [
       desc: "Adicional de borda doce.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-chocolate.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-chocolate-branco",
@@ -316,7 +316,7 @@ const MENU = [
       desc: "Adicional de borda doce.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-chocolate-branco.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-ninho",
@@ -324,7 +324,7 @@ const MENU = [
       desc: "Adicional de borda doce.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-ninho.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     },
     {
       id: "borda-beijinho",
@@ -332,7 +332,7 @@ const MENU = [
       desc: "Adicional de borda doce.",
       preco: 5.00,
       esgotado: false,
-      imagem: "assets/img/pasteis/borda-beijinho.jpg"
+      imagem: "assets/img/pasteis/borda-pastel.jpg"
     }
   ]
 },
