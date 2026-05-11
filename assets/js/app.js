@@ -235,38 +235,7 @@ const MENU = [
       
   ]
   },
-  {
-  id: "combos",
-  nome: "Combos",
-  itens: [
-    {
-      id: "combo-1",
-      nome: "Combo 1",
-      desc: "2 pastéis tradicionais + 1 pastel doce + 2 sucos.",
-      preco: 45.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo1.jpg"
-    },
-    {
-      id: "combo-2",
-      nome: "Combo 2",
-      desc: "1 pastelão + 2 sucos.",
-      preco: 35.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo2.jpg"
-    },
-    {
-      id: "combo-3",
-      nome: "Combo 3",
-      desc: "1 tradicional + 1 especial + 1 exclusivo + 3 sucos.",
-      preco: 60.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo3.jpg"
- }
-      
-  ]
-  },
-  {
+{
   id: "bordas",
   nome: "Bordas Recheadas",
   itens: [
@@ -336,7 +305,37 @@ const MENU = [
     }
   ]
 },
-  {
+{
+  id: "combos",
+  nome: "Combos",
+  itens: [
+    {
+      id: "combo-1",
+      nome: "Combo 1",
+      desc: "2 pastéis tradicionais + 1 pastel doce + 2 sucos.",
+      preco: 45.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo1.jpg"
+    },
+    {
+      id: "combo-2",
+      nome: "Combo 2",
+      desc: "1 pastelão + 2 sucos.",
+      preco: 35.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo2.jpg"
+    },
+    {
+      id: "combo-3",
+      nome: "Combo 3",
+      desc: "1 tradicional + 1 especial + 1 exclusivo + 3 sucos.",
+      preco: 60.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/combo3.jpg"
+    }
+  ]
+},
+{
   id: "bebidas",
   nome: "Bebidas",
   itens: [
