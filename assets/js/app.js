@@ -267,6 +267,76 @@ const MENU = [
   ]
   },
   {
+  id: "bordas",
+  nome: "Bordas Recheadas",
+  itens: [
+    {
+      id: "borda-catupiry",
+      nome: "Borda Catupiry",
+      desc: "Adicional de borda recheada.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-catupiry.jpg"
+    },
+    {
+      id: "borda-cheddar",
+      nome: "Borda Cheddar",
+      desc: "Adicional de borda recheada.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-cheddar.jpg"
+    },
+    {
+      id: "borda-mussarela",
+      nome: "Borda Mussarela",
+      desc: "Adicional de borda recheada.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-mussarela.jpg"
+    },
+    {
+      id: "borda-creamcheese",
+      nome: "Borda Cream Cheese",
+      desc: "Adicional de borda recheada.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-creamcheese.jpg"
+    },
+    {
+      id: "borda-chocolate",
+      nome: "Borda Chocolate",
+      desc: "Adicional de borda doce.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-chocolate.jpg"
+    },
+    {
+      id: "borda-chocolate-branco",
+      nome: "Borda Chocolate Branco",
+      desc: "Adicional de borda doce.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-chocolate-branco.jpg"
+    },
+    {
+      id: "borda-ninho",
+      nome: "Borda Creme de Ninho",
+      desc: "Adicional de borda doce.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-ninho.jpg"
+    },
+    {
+      id: "borda-beijinho",
+      nome: "Borda Beijinho",
+      desc: "Adicional de borda doce.",
+      preco: 5.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/borda-beijinho.jpg"
+    }
+  ]
+},
+  {
   id: "bebidas",
   nome: "Bebidas",
   itens: [
