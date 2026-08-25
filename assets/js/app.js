@@ -179,18 +179,10 @@ const MENU = [
     {
       id: "sensacao",
       nome: "Sensação",
-      desc: "Recheio de brigadeiro com morangos.",
+      desc: "Recheio de chocolate branco e preto com morangos.",
       preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/sensacao.jpg"
-    },
-    {
-      id: "chocolate-banana",
-      nome: "Chocolate c/ Banana",
-      desc: "Recheado com chocolate e banana.",
-      preco: 14.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/chocolate-banana.jpg"
     },
     {
       id: "confete",
@@ -215,22 +207,6 @@ const MENU = [
       preco: 14.00,
       esgotado: false,
       imagem: "assets/img/pasteis/especial-doce.jpg"
-    },
-    {
-      id: "beijinho",
-      nome: "Beijinho",
-      desc: "Recheio cremoso de coco com leite condensado.",
-      preco: 14.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/beijinho.jpg"
-    },
-    {
-      id: "sensacao-morango",
-      nome: "Sensação de Morango",
-      desc: "Chocolate com recheio cremoso de morango.",
-      preco: 14.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/sensacao-morango.jpg"
  }
       
   ]
