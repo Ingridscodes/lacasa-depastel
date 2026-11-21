@@ -45,7 +45,7 @@ const MENU = [
         id: "frango-cremoso",
         nome: "Frango Cremoso",
         desc: "Tomate, milho, queijo catupiry e queijo mussarela.",
-        preco: 15.00,
+        preco: 17.00,
         esgotado: false,
         imagem: "assets/img/pasteis/frango-cremoso.jpg"
       },
@@ -61,7 +61,7 @@ const MENU = [
         id: "moda-da-casa",
         nome: "Moda da Casa",
         desc: "Carne, calabresa, tomate, milho, azeitona e queijo.",
-        preco: 15.00,
+        preco: 17.00,
         esgotado: false,
         imagem: "assets/img/pasteis/moda-da-casa.jpg"
       },
@@ -69,7 +69,7 @@ const MENU = [
          id: "bacon",
   nome: "Bacon",
   desc: "Bacon, ovo, milho e queijo.",
-  preco: 15.00,
+  preco: 17.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bacon.jpg"
 },
@@ -77,7 +77,7 @@ const MENU = [
   id: "bacon-cremoso",
   nome: "Bacon Cremoso",
   desc: "Bacon, queijo mussarela e cheddar, milho e tomate.",
-  preco: 15.00,
+  preco: 17.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bacon-cremoso.jpg"
 },
@@ -85,7 +85,7 @@ const MENU = [
   id: "bauru",
   nome: "Baurú",
   desc: "Carne, queijo, presunto e ovo.",
-  preco: 15.00,
+  preco: 17.00,
   esgotado: false,
   imagem: "assets/img/pasteis/bauru.jpg"
 },
@@ -93,7 +93,7 @@ const MENU = [
   id: "franbacon",
   nome: "FranBacon",
   desc: "Frango, bacon e queijo.",
-  preco: 15.00,
+  preco: 17.00,
   esgotado: false,
   imagem: "assets/img/pasteis/franbacon.jpg"
 },
@@ -109,7 +109,7 @@ const MENU = [
   id: "especial-carne",
   nome: "Especial de Carne",
   desc: "Carne, queijo, tomate e batata palha.",
-  preco: 15.00,
+  preco: 17.00,
   esgotado: false,
   imagem: "assets/img/pasteis/especial-carne.jpg"
       },
@@ -141,7 +141,7 @@ const MENU = [
         id: "pastelao-30cm",
         nome: "Pastelão de 30cm",
         desc: "Calabresa, frango, carne, presunto, queijo mussarela, queijo catupiry, queijo cheddar, tomate, milho, azeitona e orégano.",
-        preco: 30.00,
+        preco: 40.00,
         esgotado: false,
         imagem: "assets/img/pasteis/pastelao-30cm.jpg"
       },
@@ -319,7 +319,7 @@ const MENU = [
       id: "suco-goiaba",
       nome: "Suco Natural 350ml",
       desc: "Verificar sabores disponíveis do dia.",
-      preco: 5.00,
+      preco: 7.00,
       esgotado: false,
       imagem: "assets/img/pasteis/suco-goiaba.jpg"
     },
@@ -327,7 +327,7 @@ const MENU = [
       id: "coca-cola",
       nome: "Coca-Cola",
       desc: "Refrigerante Coca-Cola gelado.",
-      preco: 6.00,
+      preco: 7.00,
       esgotado: false,
       imagem: "assets/img/pasteis/coca-cola.jpg"
     },
