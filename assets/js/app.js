@@ -329,7 +329,7 @@ const MENU = [
       id: "coca-litro",
       nome: "Coca-Cola Litro",
       desc: "Refrigerante Coca-Cola gelado litro.",
-      preco: 10.00,
+      preco: 12.00,
       esgotado: false,
       imagem: "assets/img/pasteis/coca-litro.jpg"
       },
