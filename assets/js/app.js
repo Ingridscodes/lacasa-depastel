@@ -282,36 +282,6 @@ const MENU = [
   ]
 },
 {
-  id: "combos",
-  nome: "Combos",
-  itens: [
-    {
-      id: "combo-1",
-      nome: "Combo 1",
-      desc: "2 pastéis tradicionais + 1 pastel doce + 2 sucos.",
-      preco: 45.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo1.jpg"
-    },
-    {
-      id: "combo-2",
-      nome: "Combo 2",
-      desc: "1 pastelão + 2 sucos.",
-      preco: 35.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo2.jpg"
-    },
-    {
-      id: "combo-3",
-      nome: "Combo 3",
-      desc: "1 tradicional + 1 especial + 1 exclusivo + 3 sucos.",
-      preco: 60.00,
-      esgotado: false,
-      imagem: "assets/img/pasteis/combo3.jpg"
-    }
-  ]
-},
-{
   id: "bebidas",
   nome: "Bebidas",
   itens: [
@@ -325,7 +295,7 @@ const MENU = [
     },
     {
       id: "coca-cola",
-      nome: "Coca-Cola",
+      nome: "Coca-Cola Lata",
       desc: "Refrigerante Coca-Cola gelado.",
       preco: 7.00,
       esgotado: false,
@@ -333,11 +303,51 @@ const MENU = [
     },
     {
       id: "guarana-tuchaua",
-      nome: "Guaraná Tuchaua",
+      nome: "Guaraná Tuchaua Lata",
       desc: "Refrigerante Guaraná Tuchaua gelado.",
-      preco: 6.00,
+      preco: 7.00,
       esgotado: false,
       imagem: "assets/img/pasteis/tuchaua.jpg"
+    },
+    { 
+      id: "coca-cola 600",
+      nome: "Coca-Cola 600ml",
+      desc: "Refrigerante Coca-Cola gelado 600ml.",
+      preco: 9.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/Coca-Cola-600ml.jpg"
+    },
+    {
+     id: "guarana-600ml",
+      nome: "Guaraná Tuchaua 600ml",
+      desc: "Refrigerante Guaraná Tuchaua gelado 600ml.",
+      preco: 8.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/guarana-600ml.jpg"  
+    },
+    {
+      id: "coca-litro",
+      nome: "Coca-Cola Litro",
+      desc: "Refrigerante Coca-Cola gelado litro.",
+      preco: 10.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/coca-litro.jpg"
+      },
+    {
+      id: "guarana-litro",
+      nome: "Guaraná Tuchaua Litro",
+      desc: "Refrigerante Guaraná Tuchaua gelado litro.",
+      preco: 10.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/guarana-litro.jpg"
+      },
+    {
+      id: "agua",
+      nome: "Agua Mineral",
+      desc: "Água mineral.",
+      preco: 3.00,
+      esgotado: false,
+      imagem: "assets/img/pasteis/agua-mineral.jpg" 
     }
   ]
 }
